@@ -35,11 +35,11 @@ html, body {
   opacity: 0.15;
 }
 
-.p { background-image: url('https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?q=80'); }
-.f { background-image: url('https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80'); }
-.e { background-image: url('https://images.unsplash.com/photo-1552422535-c45813c61732?q=80'); }
-.t { background-image: url('https://images.unsplash.com/photo-1543443436-bc6deeff2eb5?q=80'); }
-.c { background-image: url('https://images.unsplash.com/photo-1571974599782-87624638275e?q=80'); }
+.p { background-image: url('images/piano1.jpg'); }
+.f { background-image: url('images/piano2.jpg'); }
+.e { background-image: url('images/piano3.jpg'); }
+.t { background-image: url('images/piano4.jpg'); }
+.c { background-image: url('images/piano5.jpg'); }
 
 .content {
   max-width: 600px;
