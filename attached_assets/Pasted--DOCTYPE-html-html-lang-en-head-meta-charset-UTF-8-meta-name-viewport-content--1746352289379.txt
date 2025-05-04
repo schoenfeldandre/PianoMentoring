@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piano Mentoring</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav-header">
+    <div class="nav-container">
+      <div class="nav-logo">Piano Mentoring</div>
+      <div class="nav-menu">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero fade-in">
+    <div class="hero-content">
+      <img src="https://images.unsplash.com/photo-1587750053306-9f3f0f875f1e?auto=format&fit=crop&w=1400&q=80" alt="Piano" class="hero-image">
+      <h1>Piano Mentoring</h1>
+      <p>Individually. Inspired. Clearly focused.</p>
+      <a href="#contact" class="cta-button">Book Your Free Strategy Session</a>
+    </div>
+  </section>
+
+  <section class="card fade-in">
+    <h2>Who is this for?</h2>
+    <p>For people who want to discover or refine their musical voice – beginners, advanced players, and explorers alike.</p>
+  </section>
+
+  <section class="card fade-in">
+    <h2>What to expect</h2>
+    <p>A calm, clear conversation about your direction, your goals, and your next concrete step.</p>
+  </section>
+
+  <section class="card fade-in">
+    <h2>Testimonials</h2>
+    <blockquote>"This mentoring not only opened up my piano playing, but also opened something in me as a person."</blockquote>
+    <p class="cite">– Clara M., Musician</p>
+  </section>
+
+  <section class="card call fade-in">
+    <h2>Ready to take the next step?</h2>
+    <a href="#contact" class="cta-button">Book Now</a>
+  </section>
+
+  <section class="card fade-in" id="contact">
+    <h2>Contact</h2>
+    <p>Send me a message, and I’ll get back to you shortly.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+</body>
+</html>
