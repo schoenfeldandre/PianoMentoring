@@ -135,10 +135,10 @@ button {
 }
 
 .section.p::before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Piano_black_closeup.jpg/1024px-Piano_black_closeup.jpg');
+  background-image: url('hero.jpg');
 }
 .section.f::before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Piano_practice.jpg/1024px-Piano_practice.jpg');
+  background-image: url('who.jpg');
 }
 .section.e::before {
   background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4');
@@ -147,5 +147,5 @@ button {
   background-image: url('https://images.unsplash.com/photo-1507838153414-b4b713384a76');
 }
 .section.c::before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Grand_Piano_Concert.jpg/1024px-Grand_Piano_Concert.jpg');
+  background-image: url('contact.jpg');
 }
