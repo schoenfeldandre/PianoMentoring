@@ -17,7 +17,29 @@ html, body {
   justify-content: center;
   overflow: hidden;
   min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(8px);
+  background: inherit;
+  z-index: 1;
+  opacity: 0.15;
+}
+
+.p { background-image: url('images/piano-keys.jpg'); }
+.f { background-image: url('images/sheet-music.jpg'); }
+.e { background-image: url('images/piano-playing.jpg'); }
+.t { background-image: url('images/concert-hall.jpg'); }
+.c { background-image: url('images/piano-close.jpg'); }
 
 .content {
   max-width: 600px;
