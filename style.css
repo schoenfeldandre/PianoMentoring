@@ -135,17 +135,17 @@ button {
 }
 
 .section.p::before {
-  background-image: url('attached_assets/IMG_2049.png');
+  background-image: url('hero.jpg');
 }
 .section.f::before {
-  background-image: url('attached_assets/IMG_2050.png');
+  background-image: url('who.jpg');
 }
 .section.e::before {
-  background-image: url('attached_assets/IMG_2051.png');
+  background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4');
 }
 .section.t::before {
-  background-image: url('attached_assets/IMG_2052.png');
+  background-image: url('https://images.unsplash.com/photo-1507838153414-b4b713384a76');
 }
 .section.c::before {
-  background-image: url('attached_assets/IMG_2053.png');
+  background-image: url('contact.jpg');
 }
