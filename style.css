@@ -33,16 +33,21 @@ body {
 }
 
 .hero {
-  background-color: #f0dfd8;
+  background-image: url('attached_assets/IMG_2086.jpeg');
+  background-size: cover;
+  background-position: center;
   padding: 4rem 2rem;
   text-align: center;
+  color: white;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero-image {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin-bottom: 2rem;
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
   border-radius: 8px;
 }
 
