@@ -36,19 +36,37 @@ body {
   background-image: url('attached_assets/IMG_2086.jpeg');
   background-size: cover;
   background-position: center;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   text-align: center;
   color: white;
-  min-height: 60vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.hero-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
-  border-radius: 8px;
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.hero .cta-button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: #e77c47;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.hero .cta-button:hover {
+  background-color: white;
+  color: #e77c47;
 }
 
 .cta-button {
