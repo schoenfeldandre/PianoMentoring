@@ -134,8 +134,8 @@ button {
   z-index: 2;
 }
 
-.section.p { background-image: url('https://images.unsplash.com/photo-1508973378891-824c6a6d46b8'); }
-.section.f { background-image: url('https://images.unsplash.com/photo-1505664063603-28e48d0a3b9b'); }
-.section.e { background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4'); }
-.section.t { background-image: url('https://images.unsplash.com/photo-1507838153414-b4b713384a76'); }
-.section.c { background-image: url('https://images.unsplash.com/photo-1601979031925-78d3b1e8d83c'); }
+.section.p::before { background-image: url('https://images.unsplash.com/photo-1508973378891-824c6a6d46b8'); }
+.section.f::before { background-image: url('https://images.unsplash.com/photo-1505664063603-28e48d0a3b9b'); }
+.section.e::before { background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4'); }
+.section.t::before { background-image: url('https://images.unsplash.com/photo-1507838153414-b4b713384a76'); }
+.section.c::before { background-image: url('https://images.unsplash.com/photo-1601979031925-78d3b1e8d83c'); }
