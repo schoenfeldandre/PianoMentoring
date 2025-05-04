@@ -135,7 +135,7 @@ button {
 }
 
 .section.p::before {
-  background-image: url('hero.jpg');
+  background-image: url('attached_assets/IMG_2054.png');
 }
 .section.f::before {
   background-image: url('who.jpg');
