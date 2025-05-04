@@ -32,14 +32,15 @@ html, body {
   backdrop-filter: blur(8px);
   background: inherit;
   z-index: 1;
-  opacity: 0.15;
+  opacity: 0.3;
 }
 
 .p { 
-  background-image: url('images/IMG_0448.jpeg');
+  background-image: url('./images/IMG_0448.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #f4f1ec; /* Fallback color */
 }
 .f { background-image: url('images/piano2.jpg'); }
 .e { background-image: url('images/piano3.jpg'); }
