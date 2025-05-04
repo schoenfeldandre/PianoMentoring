@@ -1,12 +1,9 @@
-html, body {
+body {
   margin: 0;
   font-family: 'Georgia', serif;
   color: #111;
   background: #f4f1ec;
   line-height: 1.6;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 
 .section {
@@ -127,8 +124,16 @@ button {
 }
 
 .stack-card {
-  scroll-snap-align: start;
-  height: 100vh;
-  opacity: 1;
+  position: sticky;
+  top: 0;
   z-index: 1;
+  opacity: 0.4;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.96);
+}
+
+.stack-card.active {
+  z-index: 10;
+  opacity: 1;
+  transform: scale(1);
 }
